@@ -1,6 +1,7 @@
 module es.aritzherrero.ejerciciof {
     requires javafx.controls;
     requires javafx.fxml;
+    requires java.desktop;
 
 
     opens es.aritzherrero.ejerciciof to javafx.fxml;
